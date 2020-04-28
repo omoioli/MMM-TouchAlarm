@@ -1,0 +1,111 @@
+.mmm-touchalarm .display-set-alarm-time {
+    margin-left: 15px;
+}
+
+.MMM-TouchAlarm-modal {
+    position: fixed;
+    text-align: left;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.MMM-TouchAlarm-modal.bordered {
+    border: 1px solid white;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.MMM-TouchAlarm-blur {
+    -webkit-filter: blur(2px) brightness(50%);
+    filter: blur(2px) brightness(50%);
+}
+
+.settime-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.settime-container .cell {
+    flex-grow: 1;
+    text-align: center;
+    width: 45%;
+}
+
+.settime-container .middle-cell {
+    width: 10%;
+    line-height: 70px;
+    font-size: 50px;
+}
+
+.settime-container .button-cell {
+    height: 50px;
+}
+
+.settime-container .number-cell {
+    line-height: 70px;
+    font-size: 50px;
+}
+
+.settime-container button {
+    height: 100%;
+    width: 100%;
+
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: black;
+    color: #aaa;
+
+    font-size: 30px;
+}
+
+.settime-container .button-ok {
+    margin-top: 30px;
+    line-height: 50px;
+}
+
+.alarm-container {
+    text-align: center;
+}
+
+.alarm-container .close-container {
+    text-align: right;
+    margin-top: -20px;
+    margin-right: -10px;
+}
+
+.alarm-container .close-icon {
+    /* Empty */
+}
+
+.alarm-container i.alarm {
+    width: 100%;
+    font-size: 75px;
+}
+
+.alarm-container .alarm-time {
+    width: 100%;
+    font-size: 100px;
+    margin-top: 50px;
+}
+
+.alarm-container button {
+    height: 100%;
+    width: 100%;
+
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: black;
+    color: #aaa;
+
+    font-size: 30px;
+}
+
+.alarm-container .button-snooze {
+    width: 100%;
+    margin-top: 50px;
+    line-height: 50px;
+}
